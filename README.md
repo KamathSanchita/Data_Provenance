@@ -7,10 +7,7 @@ a. Checking the integrity of all the sequences.
 	The script ```check_md5sum.py``` does this job and outputs a file that has failed this check. 
 
 	''' Usage 
-	python verify_md5_fastq_from_pdf.py \
-  -p /path/to/reference_hashes.pdf \
-  -i /path/to/fastq_files/ \
-  -o /path/to/output/md5_check_results.tsv '''
+	python verify_md5_fastq_from_pdf.py -p /path/to/reference_hashes.pdf -i /path/to/fastq_files -o /path/to/output/md5_check_results.tsv '''
 
 b. Merging the sequences.
 c. Counting reads in sequences.
