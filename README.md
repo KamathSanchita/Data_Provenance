@@ -10,7 +10,7 @@ a. Checking the integrity of all the sequences.
 	python verify_md5_fastq_from_pdf.py \
   -p /path/to/reference_hashes.pdf \
   -i /path/to/fastq_files/ \
-  -o /path/to/output/md5_check_results.tsv'''
+  -o /path/to/output/md5_check_results.tsv '''
 
 b. Merging the sequences.
 c. Counting reads in sequences.
